@@ -34,7 +34,7 @@
   </p>
 
   <br>
-  <img align="left" src="https://komarev.com/ghpvc/?username=Microindole&label=Profile%20views&color=brightgreen&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Microindole&label=Page%20Views&color=brightgreen&style=flat" alt="Page Views"/>
 
 </td>
 <td width="45%" valign="top" style="border: none;">
