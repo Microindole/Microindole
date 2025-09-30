@@ -1,5 +1,15 @@
-<div align="center">
+<!-- <div align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div> -->
+
+<!-- <div align="center"><img src="https://octodex.github.com/images/NUX_Octodex.gif" width="300"/></div>
+<div align="center"><img src="https://octodex.github.com/images/Fintechtocat.png" width="300"/></div>
+<div align="center"><img src="https://octodex.github.com/images/scubatocat.png" width="300"/></div>
+<div align="center"><img src="https://octodex.github.com/images/murakamicat.png" width="300"/></div>
+<div align="center"><img src="https://octodex.github.com/images/heisencat.png" width="300"/></div> -->
+
+<div align="center">
+  <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" width="300"/>
 </div>
 
 <div align="center">
