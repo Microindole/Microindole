@@ -42,7 +42,6 @@
     <a href="mailto:microindole@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://space.bilibili.com/505866282"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" /></a>
   </p>
-
   <br>
   <img src="https://komarev.com/ghpvc/?username=Microindole&label=Page%20Views&color=brightgreen&style=flat" alt="Page Views"/>
 
@@ -50,11 +49,11 @@
 <td width="45%" valign="top" style="border: none;">
 
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&theme=radical&rank_icon=github" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&rank_icon=github" />
   </a>
   <br><br>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&theme=radical&langs_count=10" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&langs_count=10" />
   </a>
 
 </td>
@@ -62,8 +61,9 @@
 </table>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Microindole&theme=dracula&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Microindole&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
 </div>
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Microindole/Microindole/output/github-contribution-grid-snake.svg" alt="snake" />
