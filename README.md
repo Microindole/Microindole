@@ -18,7 +18,7 @@
   </a>
 </div>
 
-<!-- <br>
+<br>
 
 <table align="center" style="border: none;">
 <tr style="border: none;">
@@ -62,7 +62,7 @@
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Microindole&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</div> -->
+</div>
 
 
 <div align="center">
