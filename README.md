@@ -18,7 +18,7 @@
   </a>
 </div>
 
-<br>
+<!-- <br>
 
 <table align="center" style="border: none;">
 <tr style="border: none;">
@@ -42,8 +42,11 @@
     <a href="mailto:microindole@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://space.bilibili.com/505866282"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" /></a>
   </p>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=Microindole&label=Page%20Views&color=brightgreen&style=flat" alt="Page Views"/>
+  <br> -->
+
+
+  
+  <!-- <img src="https://komarev.com/ghpvc/?username=Microindole&label=Page%20Views&color=brightgreen&style=flat" alt="Page Views"/>
 
 </td>
 <td width="45%" valign="top" style="border: none;">
@@ -58,11 +61,11 @@
 
 </td>
 </tr>
-</table>
+</table> -->
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Microindole&row=1&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</div>
+</div> -->
 
 
 <div align="center">
