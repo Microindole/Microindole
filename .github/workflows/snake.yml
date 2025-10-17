@@ -11,16 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # - uses: Platane/snk@v3
-      #   with:
-      #     github_user_name: ${{ github.repository_owner }}
-      #     outputs: |
-      #       dist/github-contribution-grid-snake.svg
-      #       dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: Jain-Parth/pacman-contribution-graph@v1
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      # - uses: Jain-Parth/pacman-contribution-graph@v1
+      #   with:
+      #     github_user_name: ${{ github.repository_owner }}
+      #     outputs: dist
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
