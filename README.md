@@ -8,9 +8,29 @@
 <!-- <div align="center"><img src="https://octodex.github.com/images/murakamicat.png" width="300"/></div> -->
 <!-- <div align="center"><img src="https://octodex.github.com/images/heisencat.png" width="300"/></div> -->
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" width="300"/>
-</div>
+</div> -->
+
+
+<table align="center">
+<tr>
+<td valign="top">
+<!-- 第一个卡片：整体数据统计 -->
+<a href="https://github.com/anuraghazra/github-readme-stats">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&rank_icon=github" />
+</a>
+</td>
+<td valign="top">
+<!-- 第二个卡片：常用语言 -->
+<a href="https://github.com/anuraghazra/github-readme-stats">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&langs_count=10" />
+</a>
+</td>
+</tr>
+</table>
+
+
 
 <div align="center">
   <a href="https://git.io/typing-svg">
