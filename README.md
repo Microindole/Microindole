@@ -24,7 +24,7 @@
 <td valign="top">
 <!-- 第二个卡片：常用语言 -->
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&langs_count=10" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&langs_count=8" />
 </a>
 </td>
 </tr>
