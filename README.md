@@ -17,9 +17,9 @@
 <tr>
 <td valign="top">
 <!-- 第一个卡片：整体数据统计 -->
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<!-- <a href="https://github.com/anuraghazra/github-readme-stats">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&rank_icon=github" />
-</a>
+</a> -->
 </td>
 <td valign="top">
 <!-- 第二个卡片：常用语言 -->
