@@ -13,10 +13,9 @@
 </div> -->
 
 
-<table align="center">
+<!-- <table align="center">
 <tr>
 <td valign="top">
-<!-- GitHub 统计卡片 - 自适应主题 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&theme=dark&hide_border=true&include_all_commits=true">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&theme=default&hide_border=true&include_all_commits=true">
@@ -24,7 +23,6 @@
 </picture>
 </td>
 <td valign="top">
-<!-- 常用语言卡片 - 自适应主题 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&theme=dark&hide_border=true&langs_count=8">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&theme=default&hide_border=true&langs_count=8">
@@ -32,7 +30,7 @@
 </picture>
 </td>
 </tr>
-</table>
+</table> -->
 
 
 
