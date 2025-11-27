@@ -13,7 +13,7 @@
 </div> -->
 
 
-<!-- <table align="center">
+<table align="center">
 <tr>
 <td valign="top">
 <picture>
@@ -30,7 +30,7 @@
 </picture>
 </td>
 </tr>
-</table> -->
+</table>
 
 
 
