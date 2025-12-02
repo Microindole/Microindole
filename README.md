@@ -3,13 +3,34 @@
 </div>  -->
 
 
-<div align="center">
+
+<!-- <table align="center">
+<tr>
+<td valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&theme=dark&hide_border=true&include_all_commits=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&theme=default&hide_border=true&include_all_commits=true">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Microindole&show_icons=true&hide_border=true&include_all_commits=true" />
+</picture>
+</td>
+<td valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&theme=dark&hide_border=true&langs_count=8">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&theme=default&hide_border=true&langs_count=8">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Microindole&layout=compact&hide_border=true&langs_count=8" />
+</picture>
+</td>
+</tr>
+</table> -->
+
+
+<!-- <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Microindole/Microindole/output/github-metrics.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Microindole/Microindole/output/github-metrics.svg">
     <img alt="Microindole's Metrics" src="https://raw.githubusercontent.com/Microindole/Microindole/output/github-metrics.svg">
   </picture>
-</div>
+</div> -->
 
 
 
