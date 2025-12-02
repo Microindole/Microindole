@@ -15,36 +15,38 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
+          # 1. 权限设置 (确保数据准确)
           token: ${{ secrets.METRICS_TOKEN }}
-          # 负责保存图片：使用 GitHub 自带 Token
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          # 启用宽屏模式
+
+          # 2. 布局设置 (左右分栏)
+          # 左侧显示 base 信息，右侧显示插件(语言)
           config_display: large
+          config_timezone: Asia/Shanghai
+
+          # 3. 左侧内容 (丰富的基础信息)
+          # 恢复 repositories (显示仓库数、Star数、提交数)
+          # 恢复 metadata (显示开源协议等)
+          # 去掉了 activity/community 避免太乱
+          base: repositories, metadata
           
-          # base 设为 ""，彻底移除那些 "0 stars, 0 followers" 的文字列表
-          base: ""
-          
-          # 有了 METRICS_TOKEN，这个插件终于能正常跑了
+          # 4. 右侧内容 (语言统计)
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot
+          # 忽略非代码类文件
+          plugin_languages_ignored: css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot
+          # 显示 8 种主要语言
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used
+          # 显示百分比和进度条
           plugin_languages_details: percentage, lines
           plugin_languages_colors: github
-          
-          # 代码行数趋势图
+          # 强制排版在右侧
+          plugin_languages_sections: most-used
+
+          # 5. 底部图表 (保留代码行数趋势)
           plugin_lines: yes
           
-          # 之前的 habits 插件如果还报错，是因为刚生成的 Token 需要时间生效
-          # 建议暂时先注释掉 habits，等这次跑通了再加回来
-          # plugin_habits: yes
-          # plugin_habits_facts: no
-          # plugin_habits_charts: yes
-          
-          config_timezone: Asia/Shanghai
-          
-          # 输出设置
+          # 6. 输出设置
           output_action: commit
           committer_branch: output
-          committer_message: "chore: update metrics with PAT"
+          committer_message: "chore: update metrics layout"
           filename: github-metrics.svg
