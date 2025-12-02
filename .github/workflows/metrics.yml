@@ -15,44 +15,36 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-          # ------------------------------------------------
-          # 1. 布局设置
-          # ------------------------------------------------
-          # 开启宽屏模式，让统计和语言左右排列
+          token: ${{ secrets.METRICS_TOKEN }}
+          # 负责保存图片：使用 GitHub 自带 Token
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          # 启用宽屏模式
           config_display: large
-          config_timezone: Asia/Shanghai
-
-          # ------------------------------------------------
-          # 2. 基础数据 (精简版)
-          # ------------------------------------------------
-          # 只保留 'repositories'，这样能显示仓库总数等核心数据
-          # 去掉了 'metadata' 和其他导致满屏 "0" 的模块
-          base: repositories
           
-          # ------------------------------------------------
-          # 3. 语言统计 (长条图版)
-          # ------------------------------------------------
+          # base 设为 ""，彻底移除那些 "0 stars, 0 followers" 的文字列表
+          base: ""
+          
+          # 有了 METRICS_TOKEN，这个插件终于能正常跑了
           plugin_languages: yes
-          # 忽略 html 和 css，只看编程语言
-          plugin_languages_ignored: html, css
-          # 强制显示“最常用语言”部分
-          plugin_languages_sections: most-used
-          # 显示百分比数字 (让数据更直观)
-          plugin_languages_details: percentage
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot
           plugin_languages_limit: 8
-
-          # ------------------------------------------------
-          # 4. 图形化插件 (已移除报错的 habits)
-          # ------------------------------------------------
-          # 代码行数趋势图 (看起来很专业且不报错)
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage, lines
+          plugin_languages_colors: github
+          
+          # 代码行数趋势图
           plugin_lines: yes
           
-          # ------------------------------------------------
-          # 5. 输出设置
-          # ------------------------------------------------
+          # 之前的 habits 插件如果还报错，是因为刚生成的 Token 需要时间生效
+          # 建议暂时先注释掉 habits，等这次跑通了再加回来
+          # plugin_habits: yes
+          # plugin_habits_facts: no
+          # plugin_habits_charts: yes
+          
+          config_timezone: Asia/Shanghai
+          
+          # 输出设置
           output_action: commit
           committer_branch: output
-          committer_message: "chore: update metrics"
+          committer_message: "chore: update metrics with PAT"
           filename: github-metrics.svg
