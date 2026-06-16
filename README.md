@@ -34,11 +34,20 @@
 
 
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&pause=1500&color=20B2AA&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Indolyn+%F0%9F%91%8B;aka+Microindole+on+GitHub;A+developer+powered+by+Luo+Tianyi.&repeat=true" alt="Typing SVG" />
   </a>
+</div> -->
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/microindole-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/microindole-light.svg">
+    <img src="./assets/microindole-light.svg" alt="Microindole Terminal">
+  </picture>
 </div>
+
 <br>
 
 

@@ -1,0 +1,64 @@
+<svg width="760" height="260" viewBox="0 0 760 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --panel: #ffffff;
+      --fg: #24292f;
+      --muted: #0969da;
+      --accent: #66ccff;
+      --border: rgba(102, 204, 255, 0.85);
+    }
+
+    text {
+      font-family: "JetBrains Mono", "Consolas", monospace;
+      font-size: 18px;
+      fill: var(--accent);
+    }
+
+    .fg { fill: var(--fg); }
+    .muted { fill: var(--muted); }
+  </style>
+
+  <rect width="760" height="260" rx="18" fill="var(--panel)"/>
+  <rect x="1" y="1" width="758" height="258" rx="18" fill="none" stroke="var(--border)"/>
+
+  <defs>
+    <!-- Frame 1 -->
+    <clipPath id="f1l1"><rect x="40" y="38" width="0" height="28"><animate attributeName="width" values="0;330;330;0;0" keyTimes="0;0.08;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f1l2"><rect x="40" y="70" width="0" height="28"><animate attributeName="width" values="0;260;260;0;0" keyTimes="0;0.14;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f1l3"><rect x="40" y="118" width="0" height="28"><animate attributeName="width" values="0;100;100;0;0" keyTimes="0;0.20;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f1l4"><rect x="160" y="118" width="0" height="28"><animate attributeName="width" values="0;90;90;0;0" keyTimes="0;0.24;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f1l5"><rect x="40" y="154" width="0" height="28"><animate attributeName="width" values="0;70;70;0;0" keyTimes="0;0.27;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f1l6"><rect x="160" y="154" width="0" height="28"><animate attributeName="width" values="0;140;140;0;0" keyTimes="0;0.31;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+
+    <!-- Frame 2 -->
+    <clipPath id="f2l1"><rect x="40" y="78" width="0" height="28"><animate attributeName="width" values="0;0;170;170;0;0" keyTimes="0;0.35;0.43;0.62;0.66;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f2l2"><rect x="40" y="126" width="0" height="34"><animate attributeName="width" values="0;0;430;430;0;0" keyTimes="0;0.44;0.56;0.62;0.66;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+
+    <!-- Frame 3 -->
+    <clipPath id="f3l1"><rect x="40" y="52" width="0" height="28"><animate attributeName="width" values="0;0;240;240;0" keyTimes="0;0.68;0.76;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f3l2"><rect x="40" y="98" width="0" height="34"><animate attributeName="width" values="0;0;210;210;0" keyTimes="0;0.75;0.83;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f3l3"><rect x="40" y="134" width="0" height="34"><animate attributeName="width" values="0;0;120;120;0" keyTimes="0;0.82;0.89;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f3l4"><rect x="40" y="170" width="0" height="34"><animate attributeName="width" values="0;0;310;310;0" keyTimes="0;0.88;0.97;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <text x="40" y="58" clip-path="url(#f1l1)">Signal received from Luo Tianyi.</text>
+  <text x="40" y="90" clip-path="url(#f1l2)">Boot sequence completed.</text>
+  <text x="40" y="138" class="muted" clip-path="url(#f1l3)">Operator:</text>
+  <text x="160" y="138" class="fg" clip-path="url(#f1l4)">Indolyn</text>
+  <text x="40" y="174" class="muted" clip-path="url(#f1l5)">Alias:</text>
+  <text x="160" y="174" class="fg" clip-path="url(#f1l6)">Microindole</text>
+
+  <text x="40" y="98" class="muted" clip-path="url(#f2l1)">Current status:</text>
+  <text x="40" y="150" class="fg" font-size="22" clip-path="url(#f2l2)">coding while listening to Luo Tianyi.</text>
+
+  <text x="40" y="72" class="muted" clip-path="url(#f3l1)">Repository archive of</text>
+  <text x="40" y="122" class="fg" font-size="22" clip-path="url(#f3l2)">unfinished ideas,</text>
+  <text x="40" y="158" class="fg" font-size="22" clip-path="url(#f3l3)">curiosity,</text>
+  <text x="40" y="194" class="fg" font-size="22" clip-path="url(#f3l4)">and successful accidents.</text>
+
+  <text x="40" y="224" fill="var(--accent)">
+    _
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
+
