@@ -23,22 +23,115 @@
 
   <defs>
     <!-- Frame 1 -->
-    <clipPath id="f1l1"><rect x="40" y="38" width="0" height="28"><animate attributeName="width" values="0;330;330;0;0" keyTimes="0;0.08;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f1l2"><rect x="40" y="70" width="0" height="28"><animate attributeName="width" values="0;260;260;0;0" keyTimes="0;0.14;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f1l3"><rect x="40" y="118" width="0" height="28"><animate attributeName="width" values="0;100;100;0;0" keyTimes="0;0.20;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f1l4"><rect x="160" y="118" width="0" height="28"><animate attributeName="width" values="0;90;90;0;0" keyTimes="0;0.24;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f1l5"><rect x="40" y="154" width="0" height="28"><animate attributeName="width" values="0;70;70;0;0" keyTimes="0;0.27;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f1l6"><rect x="160" y="154" width="0" height="28"><animate attributeName="width" values="0;140;140;0;0" keyTimes="0;0.31;0.31;0.34;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f1l1">
+      <rect x="40" y="38" width="0" height="28">
+        <animate attributeName="width"
+          values="0;330;330;0;0"
+          keyTimes="0;0.06;0.29;0.31;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f1l2">
+      <rect x="40" y="70" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;260;260;0;0"
+          keyTimes="0;0.06;0.11;0.29;0.31;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f1l3">
+      <rect x="40" y="118" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;100;100;0;0"
+          keyTimes="0;0.11;0.16;0.29;0.31;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f1l4">
+      <rect x="160" y="118" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;90;90;0;0"
+          keyTimes="0;0.16;0.20;0.29;0.31;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f1l5">
+      <rect x="40" y="154" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;70;70;0;0"
+          keyTimes="0;0.20;0.24;0.29;0.31;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f1l6">
+      <rect x="160" y="154" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;140;140;0;0"
+          keyTimes="0;0.24;0.29;0.29;0.31;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
 
     <!-- Frame 2 -->
-    <clipPath id="f2l1"><rect x="40" y="78" width="0" height="28"><animate attributeName="width" values="0;0;170;170;0;0" keyTimes="0;0.35;0.43;0.62;0.66;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f2l2"><rect x="40" y="126" width="0" height="34"><animate attributeName="width" values="0;0;430;430;0;0" keyTimes="0;0.44;0.56;0.62;0.66;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f2l1">
+      <rect x="40" y="78" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;170;170;0;0"
+          keyTimes="0;0.34;0.40;0.60;0.62;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f2l2">
+      <rect x="40" y="126" width="0" height="34">
+        <animate attributeName="width"
+          values="0;0;430;430;0;0"
+          keyTimes="0;0.40;0.50;0.60;0.62;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
 
     <!-- Frame 3 -->
-    <clipPath id="f3l1"><rect x="40" y="52" width="0" height="28"><animate attributeName="width" values="0;0;240;240;0" keyTimes="0;0.68;0.76;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f3l2"><rect x="40" y="98" width="0" height="34"><animate attributeName="width" values="0;0;210;210;0" keyTimes="0;0.75;0.83;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f3l3"><rect x="40" y="134" width="0" height="34"><animate attributeName="width" values="0;0;120;120;0" keyTimes="0;0.82;0.89;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="f3l4"><rect x="40" y="170" width="0" height="34"><animate attributeName="width" values="0;0;310;310;0" keyTimes="0;0.88;0.97;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="f3l1">
+      <rect x="40" y="52" width="0" height="28">
+        <animate attributeName="width"
+          values="0;0;240;240;0"
+          keyTimes="0;0.66;0.72;0.98;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f3l2">
+      <rect x="40" y="98" width="0" height="34">
+        <animate attributeName="width"
+          values="0;0;210;210;0"
+          keyTimes="0;0.72;0.78;0.98;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f3l3">
+      <rect x="40" y="134" width="0" height="34">
+        <animate attributeName="width"
+          values="0;0;120;120;0"
+          keyTimes="0;0.78;0.84;0.98;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="f3l4">
+      <rect x="40" y="170" width="0" height="34">
+        <animate attributeName="width"
+          values="0;0;310;310;0"
+          keyTimes="0;0.84;0.92;0.98;1"
+          dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <text x="40" y="58" clip-path="url(#f1l1)">Signal received from Luo Tianyi.</text>
